@@ -1,0 +1,35 @@
+ /* Author: Sushma Telagamsetti
+ ID: C0901939 */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .playerNames {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  .dice-container {
+    display: flex; /* Set the container to flex to make dice side by side */
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+  .dice {
+    margin: 0 10px; /* Adjust margin for spacing between dice */
+  }
+  
